@@ -1,0 +1,27 @@
+header {
+  background: linear-gradient(
+    109.6deg,
+    rgba(61, 245, 167, 1) 11.2%,
+    rgba(9, 111, 224, 1) 91.1%
+  );
+  position: fixed;
+  width: 100%;
+  border-bottom: 1px solid #555;
+}
+
+#nav-bar ul {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 20px;
+  gap: 10px;
+}
+
+#nav-bar ul li a {
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #fff;
+  padding: 25px 30px;
+  display: block;
+}
