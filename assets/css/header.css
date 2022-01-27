@@ -6,7 +6,7 @@ header {
   top: 0;
 }
 
-#nav-bar ul {
+#navbar ul {
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -14,7 +14,7 @@ header {
   gap: 10px;
 }
 
-#nav-bar ul li a {
+#navbar ul li a {
   text-transform: capitalize;
   font-size: 1.2rem;
   font-weight: bold;
@@ -24,6 +24,6 @@ header {
   transition: transform 0.3s;
 }
 
-#nav-bar ul li a:hover {
+#navbar ul li a:hover {
   transform: scale(1.2);
 }
