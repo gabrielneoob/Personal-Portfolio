@@ -1,0 +1,66 @@
+#perfil {
+  margin-top: 80px;
+  background: linear-gradient(to right, #bdc3c7, #2c3e50);
+  display: grid;
+  height: 100vh;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+
+#perfil-img {
+  max-width: 250px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+#perfil-img img {
+  border-radius: 10%;
+  object-fit: cover;
+}
+
+#perfil h1 {
+  color: #fff;
+  font-size: 3rem;
+  transition: transform 0.3s;
+}
+
+#perfil h1:hover {
+  transform: scale(1.02);
+}
+
+.card-perfil span {
+  font-size: 1.5rem;
+  display: inline-block;
+  color: transparent;
+  transition: color 0.5s;
+}
+
+.card-perfil:hover span {
+  color: var(--main-red);
+}
+
+#perfil p {
+  color: var(--main-gray);
+  margin-bottom: 15px;
+  display: block;
+  font-size: 1.8rem;
+}
+
+.redes {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+}
+
+.redes i {
+  font-size: 2.5rem;
+  color: #eee;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.redes i:hover {
+  transform: rotate(360deg);
+  color: var(--main-gray);
+}
